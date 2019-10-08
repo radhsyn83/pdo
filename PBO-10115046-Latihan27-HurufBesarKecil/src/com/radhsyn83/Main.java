@@ -7,9 +7,21 @@ package com.radhsyn83;
  * PDO11K
  */
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        Scanner sc = new Scanner(System.in);
+
+        String input;
+        System.out.print("Masukkan kalimat : ");
+        input = sc.nextLine();
+
+        System.out.print("===== Hasil kalimat =====");
+        System.out.print("Huruf Besar : " + input.toUpperCase());
+        System.out.print("Huruf Kecil : " + input.toLowerCase());
+
     }
 }
