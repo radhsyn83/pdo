@@ -19,9 +19,9 @@ public class Main {
         System.out.print("Masukkan kalimat : ");
         input = sc.nextLine();
 
-        System.out.print("===== Hasil kalimat =====");
-        System.out.print("Huruf Besar : " + input.toUpperCase());
-        System.out.print("Huruf Kecil : " + input.toLowerCase());
+        System.out.println("===== Hasil kalimat =====");
+        System.out.println("Huruf Besar : " + input.toUpperCase());
+        System.out.println("Huruf Kecil : " + input.toLowerCase());
 
     }
 }
